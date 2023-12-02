@@ -25,7 +25,6 @@ struct DetailView: View {
                     .offset(x:-5,y:-5)
                 
             }
-            
             Text(item.description)
                 .padding()
             Button("Order This!") {
